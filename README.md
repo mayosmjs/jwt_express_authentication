@@ -2,14 +2,20 @@ A lightweight authentication setup using JSON Web Tokens (JWT) with Express and 
 
 Steps to run
 1. Install dependencies:
-   npm install
+
+```bash
+npm install
+```
 
 2. Start the server:
-   node server.js
-   or
-   nodemon server.js
+
+```bash
+node server.js
+# or, if you use nodemon
+nodemon server.js
+```
 
 3. Environment:
-   Ensure MONGO_URI (and other required vars like JWT_SECRET) are set in your .env before starting the server.
+Ensure MONGO_URI (and other required vars like JWT_SECRET) are set in your .env before starting the server.
 
 
